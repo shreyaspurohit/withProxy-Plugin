@@ -1,0 +1,14 @@
+buildscript {
+    repositories {
+        maven {
+            url uri('../repo')
+        }
+    }
+    dependencies {
+        classpath group: 'com.bitourea.gradle',
+                  name: 'withproxy',
+                  version: '1.0'
+    }
+}
+
+apply plugin: 'withproxy'
