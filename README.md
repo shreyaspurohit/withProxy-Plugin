@@ -26,7 +26,7 @@ Add dependency,
 Add maven repo URL,
 
     repositories {
-        mavenRepo urls: 'https://github.com/shreyaspurohit/mvn-repo/raw/master/releases'
+        mavenRepo urls: 'https://raw.github.com/shreyaspurohit/mvn_repo/master/releases'
     }
 
 Settings
